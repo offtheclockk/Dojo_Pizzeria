@@ -1,9 +1,44 @@
-var pizza = {
-    crustType: ["deep dish", "hand tossed"],
-    sauceType: ["traditional", "marinara"],
-    cheeses: ["mozzarella", "feta"],
-    toppings: ["pepperoni", "sausage", "onions", "mushrooms", "olives"],
-}
+var crustTypes = [
+    "deep dish",
+    "hand tossed",
+    "thin and crispy",
+    "cauliflower",
+    "gluten free",
+    "hawaiian bread"
+];
+
+var sauceTypes = [
+    "traditional",
+    "marinara",
+    "bbq",
+    "white sauce",
+    "nacho cheese",
+    "tikka masala"
+];
+
+var cheeses = [
+    "mozzarella",
+    "cheddar",
+    "feta",
+    "swiss cheese",
+    "blue cheese",
+    "goat cheese",
+    "provolone",
+    "parmesan",
+    "vegan cheese"
+];
+
+var toppings = [
+    "pepperoni",
+    "sausage",
+    "chicken",
+    "corn",
+    "olives",
+    "bell peppers",
+    "onions",
+    "mushrooms",
+    "anchovies"
+];
 
 function pizzaFactory(crustType, sauceType, cheeses, toppings) {
     var pizza = {};
